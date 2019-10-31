@@ -1,11 +1,15 @@
 import React from "react";
 import "./Header.scss";
+import Schedule from "../Schedule/Schedule";
 
 const Header = () => {
   return (
-    <header className="max-width">
-      <h2 className="title">Grace Trinity Church</h2>
-    </header>
+    <div className="header-wrapper max-width">
+      <header>
+        <h2 className="title">Grace Trinity Church</h2>
+      </header>
+      <Schedule />
+    </div>
   );
 };
 

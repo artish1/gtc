@@ -1,0 +1,39 @@
+.schedule-wrapper {
+  color: #333;
+  height: fit-content;
+  padding: 25px;
+  width: 20%;
+  min-width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .service-day-wrapper {
+    width: 100%;
+    padding: 10px 0px;
+    border-top: 1px solid #bbb;
+    text-align: center;
+    h3 {
+      margin: 0;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 5px;
+  .service-type {
+    font-weight: 600;
+  }
+}
+
+.service-time {
+  font-size: 15px;
+}
