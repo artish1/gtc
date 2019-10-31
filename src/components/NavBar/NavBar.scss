@@ -1,0 +1,39 @@
+nav {
+  background-color: white;
+  padding: 10px 0px;
+  margin-bottom: 50px;
+
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .links {
+    display: flex;
+
+    a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 16px;
+      &:after {
+        content: "";
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        height: 2px;
+        width: 0px;
+        background-color: black;
+        transition: width 0.22s ease;
+      }
+      &:hover:after {
+        width: 98%;
+      }
+    }
+  }
+}
