@@ -6,22 +6,68 @@ const IntroBody = () => {
   return (
     <div className="body-container">
       <div className="text-block light">
-        <h2>PARALLAX DEMO</h2>
+        <h2>Sample Title</h2>
         <p>
-          Parallax scrolling is a web site trend where the background content is
-          moved at a different speed than the foreground content while
-          scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis
-          nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit
-          pellentesque a, magna turpis est sapien duis blandit dignissim.
-          Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum
-          consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget
-          et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus
-          vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar,
-          in in neque risus odio. Accumsan fringilla vulputate at quibusdam
-          sociis eleifend, aenean maecenas vulputate, non id vehicula lorem
-          mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel,
-          non sit platea sit, maecenas ante augue etiam maecenas, porta
-          porttitor placerat leo.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh
+          dolor, congue quis aliquam at, scelerisque ac purus. Morbi a
+          pellentesque augue. Praesent sit amet mattis ante. Nunc quis enim
+          velit. Ut in arcu a massa egestas dignissim. Mauris maximus suscipit
+          massa. Morbi fermentum nibh non ex malesuada, feugiat rhoncus lorem
+          finibus. Nunc fringilla interdum purus, vitae posuere leo lobortis
+          nec. Duis justo diam, eleifend vel lorem eget, semper porttitor augue.
+          Integer mi nunc, mattis auctor ex et, imperdiet posuere ante. Aliquam
+          erat volutpat. Fusce sed libero id est sagittis pretium. Etiam eros
+          orci, tempor sagittis placerat ullamcorper, pretium eu ligula.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut
+          vestibulum nulla sed condimentum maximus. Aenean dignissim vel est
+          eget tempor. Donec sodales libero nec lacus mattis, ac tempus mi
+          tincidunt. Sed luctus ut est vitae pharetra. Ut at tempor ligula.
+          Nullam pharetra quam ut nunc tempus bibendum.
+        </p>
+      </div>
+
+      <div className="para-image img1" />
+      <div className="text-block light">
+        <h2>Sample Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh
+          dolor, congue quis aliquam at, scelerisque ac purus. Morbi a
+          pellentesque augue. Praesent sit amet mattis ante. Nunc quis enim
+          velit. Ut in arcu a massa egestas dignissim. Mauris maximus suscipit
+          massa. Morbi fermentum nibh non ex malesuada, feugiat rhoncus lorem
+          finibus. Nunc fringilla interdum purus, vitae posuere leo lobortis
+          nec. Duis justo diam, eleifend vel lorem eget, semper porttitor augue.
+          Integer mi nunc, mattis auctor ex et, imperdiet posuere ante. Aliquam
+          erat volutpat. Fusce sed libero id est sagittis pretium. Etiam eros
+          orci, tempor sagittis placerat ullamcorper, pretium eu ligula.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut
+          vestibulum nulla sed condimentum maximus. Aenean dignissim vel est
+          eget tempor. Donec sodales libero nec lacus mattis, ac tempus mi
+          tincidunt. Sed luctus ut est vitae pharetra. Ut at tempor ligula.
+          Nullam pharetra quam ut nunc tempus bibendum.
+        </p>
+      </div>
+
+      <div className="para-image img2" />
+
+      <div className="text-block dark">
+        <h2>Sample Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh
+          dolor, congue quis aliquam at, scelerisque ac purus. Morbi a
+          pellentesque augue. Praesent sit amet mattis ante. Nunc quis enim
+          velit. Ut in arcu a massa egestas dignissim. Mauris maximus suscipit
+          massa. Morbi fermentum nibh non ex malesuada, feugiat rhoncus lorem
+          finibus. Nunc fringilla interdum purus, vitae posuere leo lobortis
+          nec. Duis justo diam, eleifend vel lorem eget, semper porttitor augue.
+          Integer mi nunc, mattis auctor ex et, imperdiet posuere ante. Aliquam
+          erat volutpat. Fusce sed libero id est sagittis pretium. Etiam eros
+          orci, tempor sagittis placerat ullamcorper, pretium eu ligula.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut
+          vestibulum nulla sed condimentum maximus. Aenean dignissim vel est
+          eget tempor. Donec sodales libero nec lacus mattis, ac tempus mi
+          tincidunt. Sed luctus ut est vitae pharetra. Ut at tempor ligula.
+          Nullam pharetra quam ut nunc tempus bibendum.
         </p>
       </div>
     </div>

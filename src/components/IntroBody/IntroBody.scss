@@ -11,6 +11,7 @@
   font-family: "Lato", sans-serif;
   font-size: 20px;
   h2 {
+    text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 5px;
     padding: 10px;
@@ -27,7 +28,10 @@
 
 .dark {
   background-color: #333;
-  color: #eee;
+  color: #ddd;
+  h2 {
+    color: #fff;
+  }
 }
 
 .light {
@@ -41,5 +45,21 @@
   }
 }
 
-.paral-image {
+.img1 {
+  background-image: url("../../images/choir1.jpg");
+  min-height: 750px;
+}
+
+.img2 {
+  background-image: url("../../images/lobby.jpg");
+  min-height: 750px;
+  opacity: 0.85;
+}
+
+.para-image {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
