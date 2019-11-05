@@ -12,7 +12,23 @@ const SideContent = () => {
         <div className="main-info-body"></div>
       </div>
 
-      <div className="side-info shadow"></div>
+      <div className="side-info shadow">
+        <h2>Join us on Sundays</h2>
+        <div className="quick-info">
+          <div className="info-wrapper">
+            <i class="fas fa-church fa-3x"></i>
+            <br />
+            <p>Located at </p>
+            <span>5821 Auburn Blvd, Sacramento, CA 95841</span>
+          </div>
+          <div className="info-wrapper">
+            <i class="fas fa-hands fa-3x"></i>
+            <br />
+            <p>Worship</p>
+            <span>Come to a place of worship</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
