@@ -3,7 +3,7 @@ import "./DonationDisplay.scss";
 
 const DonationDisplay = () => {
   return (
-    <div className="info-card">
+    <div className="info-card shadow">
       <h2>Donate</h2>
       <div className="donation">
         <i className="fas fa-wallet fa-2x"></i>

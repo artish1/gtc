@@ -1,15 +1,16 @@
 .landing {
-  height: 80vh;
-  min-height: 1000px;
+  height: 87vh;
+  min-height: 1050px;
   width: 100%;
-  background-image: url("../../images/landing3.jpg");
+  //background-image: url("../../images/landing3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.95;
+  // opacity: 0.95;
 
   .landing-content {
     display: flex;
-    margin: 50px;
+    justify-content: center;
+    margin: 40px;
   }
 }
