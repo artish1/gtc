@@ -1,0 +1,16 @@
+.donations {
+  color: #333;
+  background-color: white;
+  height: fit-content;
+  padding: 25px;
+  width: 20%;
+  min-width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  h2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
