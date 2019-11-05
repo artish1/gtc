@@ -1,27 +1,11 @@
-.schedule-wrapper {
-  color: #333;
-  background-color: white;
-  height: fit-content;
-  padding: 25px;
-  width: 20%;
-  min-width: 215px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  h2 {
+.service-day-wrapper {
+  width: 100%;
+  padding: 10px 0px;
+  border-top: 1px solid #bbb;
+  text-align: center;
+  h3 {
     margin: 0;
-    margin-bottom: 20px;
-  }
-  .service-day-wrapper {
-    width: 100%;
-    padding: 10px 0px;
-    border-top: 1px solid #bbb;
-    text-align: center;
-    h3 {
-      margin: 0;
-      margin-bottom: 12px;
-    }
+    margin-bottom: 12px;
   }
 }
 

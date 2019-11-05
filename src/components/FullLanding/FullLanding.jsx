@@ -5,6 +5,7 @@ import Schedule from "../Schedule/Schedule";
 
 import "./FullLanding.scss";
 import DonationDisplay from "../DonationDisplay/DonationDisplay";
+import MediaCard from "../MediaCard/MediaCard";
 
 const FullLanding = () => {
   return (
@@ -14,6 +15,7 @@ const FullLanding = () => {
         <div className="vertical-content">
           <Schedule />
           <DonationDisplay />
+          <MediaCard />
         </div>
       </div>
     </div>

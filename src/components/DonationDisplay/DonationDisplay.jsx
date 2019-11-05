@@ -3,9 +3,16 @@ import "./DonationDisplay.scss";
 
 const DonationDisplay = () => {
   return (
-    <div className="donations">
+    <div className="info-card">
       <h2>Donate</h2>
-      <div className="donation"></div>
+      <div className="donation">
+        <i className="fas fa-wallet fa-2x"></i>
+        <p>Card/Cash</p>
+      </div>
+      <div className="donation">
+        <i className="fab fa-paypal fa-2x paypal"></i>
+        <p>Paypal</p>
+      </div>
     </div>
   );
 };

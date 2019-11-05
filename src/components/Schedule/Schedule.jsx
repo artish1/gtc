@@ -3,7 +3,7 @@ import "./Schedule.scss";
 
 const Schedule = () => {
   return (
-    <div className="schedule-wrapper shadow">
+    <div className="info-card shadow">
       <h2>Services</h2>
 
       <div className="service-day-wrapper">

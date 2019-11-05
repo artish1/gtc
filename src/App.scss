@@ -25,3 +25,20 @@ body {
 .full {
   width: 100%;
 }
+
+.info-card {
+  color: #333;
+  background-color: white;
+  height: fit-content;
+  padding: 25px;
+  width: 20%;
+  min-width: 215px;
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

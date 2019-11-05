@@ -1,16 +1,18 @@
-.donations {
-  color: #333;
-  background-color: white;
-  height: fit-content;
-  padding: 25px;
-  width: 20%;
-  min-width: 215px;
+.donation {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-top: 25px;
-  h2 {
-    margin: 0;
-    margin-bottom: 20px;
+  width: 100%;
+  border-top: 1px solid gray;
+  i {
+    margin-right: 20px;
+    margin-left: 5px;
+    color: rgb(71, 51, 27);
+  }
+  i.paypal {
+    color: blue;
+  }
+  p {
+    font-weight: bold;
+    font-size: 20px;
   }
 }
