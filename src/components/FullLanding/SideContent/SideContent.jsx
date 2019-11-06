@@ -22,6 +22,15 @@ const SideContent = () => {
             <span>5821 Auburn Blvd, Sacramento, CA 95841</span>
           </div>
           <div className="info-wrapper">
+            <i class="fas fa-baby fa-3x"></i>
+            <br />
+            <p>Baby/Toddler Care</p>
+            <span>
+              We have a dedicated toddler room to help keep them occupied as you
+              attend service.
+            </span>
+          </div>
+          <div className="info-wrapper">
             <i class="fas fa-hands fa-3x"></i>
             <br />
             <p>Worship</p>
