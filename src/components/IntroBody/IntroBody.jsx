@@ -5,7 +5,7 @@ import "./IntroBody.scss";
 const IntroBody = () => {
   return (
     <div className="body-container">
-      <div className="text-block dark">
+      <div className="text-block light">
         <h2>Can't Attend?</h2>
         <div className="text-block-flex">
           <div className="block">

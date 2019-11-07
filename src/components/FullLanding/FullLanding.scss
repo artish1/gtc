@@ -1,5 +1,7 @@
+@import "../../variables.scss";
+
 .landing {
-  height: 87vh;
+  // height: 87vh;
   min-height: 1050px;
   width: 100%;
   //background-image: url("../../images/landing3.jpg");
@@ -8,9 +10,41 @@
   background-size: cover;
   // opacity: 0.95;
 
+  .landing-content-wrapper {
+    margin: 0 50px;
+    @media screen and (max-width: $break-large) {
+      margin: 0 10px;
+    }
+  }
+
   .landing-content {
     display: flex;
+    margin: 25px auto;
+    max-width: 1600px;
     justify-content: center;
-    margin: 40px;
+    align-items: center;
+
+    .vertical-content {
+      :nth-child(1) {
+        margin-top: 0px;
+      }
+
+      @media screen and (max-width: $break-large) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: $break-large) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+    }
   }
 }

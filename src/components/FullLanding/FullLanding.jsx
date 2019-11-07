@@ -13,12 +13,14 @@ const FullLanding = () => {
   return (
     <div className="landing">
       <NavBar />
-      <div className="landing-content">
-        <SideContent />
-        <div className="vertical-content">
-          <Schedule />
-          <DonationDisplay />
-          <MediaCard />
+      <div className="landing-content-wrapper">
+        <div className="landing-content">
+          <SideContent />
+          <div className="vertical-content">
+            <Schedule />
+            <DonationDisplay />
+            <MediaCard />
+          </div>
         </div>
       </div>
     </div>
