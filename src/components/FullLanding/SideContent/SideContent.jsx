@@ -21,20 +21,24 @@ const SideContent = () => {
             <p>Located at </p>
             <span>5821 Auburn Blvd, Sacramento, CA 95841</span>
           </div>
-          <div className="info-wrapper">
+          {/* <div className="info-wrapper">
             <i class="fas fa-baby fa-3x"></i>
             <br />
             <p>Baby/Toddler Care</p>
             <span>
-              We have a dedicated toddler room to help keep them occupied as you
-              attend service.
+              We have a dedicated toddler room to help keep your loved ones
+              occupied as you listen in.
             </span>
-          </div>
+          </div> */}
           <div className="info-wrapper">
-            <i class="fas fa-hands fa-3x"></i>
+            <i class="fas fa-globe-americas fa-3x"></i>
             <br />
-            <p>Worship</p>
-            <span>Come to a place of worship</span>
+            <p>Translation</p>
+            <span>
+              Don't speak Ukranian or Russian? <br />
+              No problem. <br />
+              We have English translators ready during live sermons.
+            </span>
           </div>
         </div>
       </div>
