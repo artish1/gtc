@@ -5,7 +5,7 @@ import "./NavBar.scss";
 const NavBar = () => {
   return (
     <nav className="shadow nav-center">
-      <div className="nav-wrapper max-width">
+      <div className="nav-wrapper max-size">
         <img className="logo" src={logo} alt="church logo" />
         <div className="links">
           <a href="#">Home</a>

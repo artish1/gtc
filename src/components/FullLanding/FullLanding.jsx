@@ -14,7 +14,7 @@ const FullLanding = () => {
     <div className="landing">
       <NavBar />
       <div className="landing-content-wrapper">
-        <div className="landing-content">
+        <div className="landing-content max-size">
           <SideContent />
           <div className="vertical-content">
             <Schedule />
