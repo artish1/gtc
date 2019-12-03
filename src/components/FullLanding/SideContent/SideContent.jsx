@@ -14,15 +14,18 @@ const SideContent = () => {
       </div>
 
       <div className="side-info shadow">
-        <h2>Join us on Sundays</h2>
-        <div className="quick-info">
+        <div className="centered">
+          <h2>Welcome to Church!</h2>
+          <p>We're located at 5821 Auburn Blvd, Sacramento, CA 95841</p>
+        </div>
+        {/* <div className="quick-info">
           <div className="info-wrapper">
             <i class="fas fa-church fa-3x"></i>
             <br />
             <p>Located at </p>
             <span>5821 Auburn Blvd, Sacramento, CA 95841</span>
           </div>
-          {/* <div className="info-wrapper">
+           <div className="info-wrapper">
             <i class="fas fa-baby fa-3x"></i>
             <br />
             <p>Baby/Toddler Care</p>
@@ -30,7 +33,7 @@ const SideContent = () => {
               We have a dedicated toddler room to help keep your loved ones
               occupied as you listen in.
             </span>
-          </div> */}
+          </div> 
           <div className="info-wrapper">
             <i class="fas fa-globe-americas fa-3x"></i>
             <br />
@@ -41,7 +44,7 @@ const SideContent = () => {
               We have English translators ready during live sermons.
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
