@@ -9,6 +9,7 @@ const SideContent = () => {
       <div className="title-info shadow">
         <img className="logo" src={logo} alt="" />
         <h1>Grace Trinity Church</h1>
+        <p>Assemblies of God</p>
         <div className="main-info-body"></div>
       </div>
 

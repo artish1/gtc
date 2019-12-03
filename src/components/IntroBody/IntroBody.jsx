@@ -9,7 +9,10 @@ const IntroBody = () => {
         <h2>Can't Attend?</h2>
         <div className="text-block-flex max-size">
           <div className="block">
+          <div className="circled-icon">
             <i class="fab fa-youtube fa-3x"></i>
+            </div>
+            <h3>We do livestreaming</h3>
             <p>
               We livestream our services through YouTube so you and many others
               can view at your own comfort. The stream will also be hosted on
@@ -17,7 +20,11 @@ const IntroBody = () => {
             </p>
           </div>
           <div className="block">
-            <i class="fas fa-compact-disc fa-3x"></i>
+            <div className="circled-icon">
+              <i class="fas fa-compact-disc fa-3x"></i>
+            </div>
+            {/* <i class="fas fa-compact-disc fa-3x"></i> */}
+            <h3>Missed us?</h3>
             <p>
               If by any chance you missed the timing of our services, we archive
               our videos on YouTube so you can view previously recorded
@@ -25,7 +32,10 @@ const IntroBody = () => {
             </p>
           </div>
           <div className="block">
+          <div className="circled-icon">
             <i class="fas fa-calendar-alt fa-3x"></i>
+            </div>
+            <h3>Check our schedule</h3>
             <p>
               Look at our other service times. We have both morning and evening
               services on Sunday and Thursday. We also have youth services on

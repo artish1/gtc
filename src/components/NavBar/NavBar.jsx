@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../images/gtc-logo.png";
 import "./NavBar.scss";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -8,10 +9,15 @@ const NavBar = () => {
       <div className="nav-wrapper max-size">
         <img className="logo" src={logo} alt="church logo" />
         <div className="links">
-          <a href="#">Home</a>
-          {/* <a href="#">Services</a> */}
-          <a href="#">Media</a>
-          <a href="#">About</a>
+          <Link to="/">
+            Home
+          </Link>
+          <Link to="/about">
+            About
+          </Link>
+          <Link to="/media">
+            Media
+          </Link>
         </div>
       </div>
     </nav>
